@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-anveshan-l-p/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-anveshan-l-p/static/js/main.b21fdc02.chunk.js",
+    "main.js.map": "/react-anveshan-l-p/static/js/main.b21fdc02.chunk.js.map",
+    "runtime-main.js": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js",
+    "runtime-main.js.map": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js.map",
+    "static/js/2.9eaac8f0.chunk.js": "/react-anveshan-l-p/static/js/2.9eaac8f0.chunk.js",
+    "static/js/2.9eaac8f0.chunk.js.map": "/react-anveshan-l-p/static/js/2.9eaac8f0.chunk.js.map",
+    "index.html": "/react-anveshan-l-p/index.html",
+    "precache-manifest.1a9654c01a7cc37abc875dd26bac5fd9.js": "/react-anveshan-l-p/precache-manifest.1a9654c01a7cc37abc875dd26bac5fd9.js",
+    "service-worker.js": "/react-anveshan-l-p/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react-anveshan-l-p/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9eaac8f0.chunk.js.LICENSE.txt": "/react-anveshan-l-p/static/js/2.9eaac8f0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-anveshan-l-p/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9787d376.js",
+    "static/js/2.9eaac8f0.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.b21fdc02.chunk.js"
+  ]
+}
