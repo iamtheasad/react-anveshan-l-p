@@ -795,16 +795,16 @@ span.bordr_bottom {
     background: #3A0C3A;
 }
 
-.service_arrow_1 i {
+.service_arrow_1 span {
     font-size: 3.125rem;
     color: #953d78;
 }
 
-.service_arrow_2 i {
+.service_arrow_2 span {
     color: #682852;
 }
 
-.service_arrow_3 i {
+.service_arrow_3 span {
     color: #601848;
 }
 
