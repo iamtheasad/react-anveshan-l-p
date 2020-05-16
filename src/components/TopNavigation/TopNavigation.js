@@ -4,13 +4,22 @@ import '../../assets/css/responsive.css';
 import Logo from '../../assets/image/logo.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import 'jquery/dist/jquery.min';
-import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
 
 
 class TopNavigation extends Component {
+
+    componentDidMount() {
+        // Navigation Background Change on Scrolling
+        $(window).scroll(function () {
+            $('.header_menu').toggleClass('scrolled', $(this).scrollTop() > 100
+            );
+        });
+
+    }
+
     render() {
         return (
             <Fragment>
