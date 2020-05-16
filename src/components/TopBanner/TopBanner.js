@@ -3,8 +3,8 @@ import Toggle from '../../assets/image/toggle_on_off.png';
 import Triagnle from '../../assets/image/triangle.png';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-
+import '../../assets/css/style.css';
+import '../../assets/css/responsive.css';
 
 
 class TopBanner extends Component {
