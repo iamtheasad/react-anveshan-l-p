@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-anveshan-l-p/static/css/main.d357a2d1.chunk.css",
-    "main.js": "/react-anveshan-l-p/static/js/main.dd715777.chunk.js",
-    "main.js.map": "/react-anveshan-l-p/static/js/main.dd715777.chunk.js.map",
+    "main.js": "/react-anveshan-l-p/static/js/main.77d0f0b0.chunk.js",
+    "main.js.map": "/react-anveshan-l-p/static/js/main.77d0f0b0.chunk.js.map",
     "runtime-main.js": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js",
     "runtime-main.js.map": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js.map",
     "static/css/2.69121389.chunk.css": "/react-anveshan-l-p/static/css/2.69121389.chunk.css",
-    "static/js/2.1d9397a0.chunk.js": "/react-anveshan-l-p/static/js/2.1d9397a0.chunk.js",
-    "static/js/2.1d9397a0.chunk.js.map": "/react-anveshan-l-p/static/js/2.1d9397a0.chunk.js.map",
+    "static/js/2.f5ba90b0.chunk.js": "/react-anveshan-l-p/static/js/2.f5ba90b0.chunk.js",
+    "static/js/2.f5ba90b0.chunk.js.map": "/react-anveshan-l-p/static/js/2.f5ba90b0.chunk.js.map",
     "index.html": "/react-anveshan-l-p/index.html",
-    "precache-manifest.c45135e2aca5e4760b1f23725e846f69.js": "/react-anveshan-l-p/precache-manifest.c45135e2aca5e4760b1f23725e846f69.js",
+    "precache-manifest.986d7dd0a846c2c33e0fe1c3f84a6849.js": "/react-anveshan-l-p/precache-manifest.986d7dd0a846c2c33e0fe1c3f84a6849.js",
     "service-worker.js": "/react-anveshan-l-p/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/react-anveshan-l-p/static/css/2.69121389.chunk.css.map",
     "static/css/main.d357a2d1.chunk.css.map": "/react-anveshan-l-p/static/css/main.d357a2d1.chunk.css.map",
-    "static/js/2.1d9397a0.chunk.js.LICENSE.txt": "/react-anveshan-l-p/static/js/2.1d9397a0.chunk.js.LICENSE.txt",
+    "static/js/2.f5ba90b0.chunk.js.LICENSE.txt": "/react-anveshan-l-p/static/js/2.f5ba90b0.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-anveshan-l-p/static/media/service_bg.e6489a09.jpg",
     "static/media/triangle.png": "/react-anveshan-l-p/static/media/triangle.b0b51ca6.png",
     "static/media/video_thumb.jpg": "/react-anveshan-l-p/static/media/video_thumb.a375eccc.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.9787d376.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.1d9397a0.chunk.js",
+    "static/js/2.f5ba90b0.chunk.js",
     "static/css/main.d357a2d1.chunk.css",
-    "static/js/main.dd715777.chunk.js"
+    "static/js/main.77d0f0b0.chunk.js"
   ]
 }
