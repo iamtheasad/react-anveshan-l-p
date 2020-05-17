@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddf3068ee8b7491a32e0c2ccddbe5fe6",
+    "revision": "eb709c2d5869162610383e217ecfa198",
     "url": "/react-anveshan-l-p/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-anveshan-l-p/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "fd11e74a6e3275576650",
+    "revision": "3f0bbea2f8e4960a4559",
     "url": "/react-anveshan-l-p/static/css/main.df56d8f2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-anveshan-l-p/static/js/2.202284bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd11e74a6e3275576650",
-    "url": "/react-anveshan-l-p/static/js/main.f2ddc9bf.chunk.js"
+    "revision": "3f0bbea2f8e4960a4559",
+    "url": "/react-anveshan-l-p/static/js/main.dc573739.chunk.js"
   },
   {
     "revision": "5122fda219958d6bf0f8",
