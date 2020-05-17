@@ -16,12 +16,12 @@ class Footer extends Component {
         return (
             <Fragment>
                 {/*Footer Section Start*/}
-                <footer class="custom_width">
-                    <div class="footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center footer_content_width">
-                                    <div class="social_icons">
+                <footer className="custom_width">
+                    <div className="footer">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-12 text-center footer_content_width">
+                                    <div className="social_icons">
                                         <a href={this.state.linkedin} target="_blank">
                                             <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
                                         </a>
@@ -33,7 +33,7 @@ class Footer extends Component {
                                         </a>
                                     </div>
 
-                                    <div class="address">
+                                    <div className="address">
                                         <p><a href={this.state.linkedin}>© All rights reserved. Anveshan Inc.</a></p>
                                         <p>
                                             P.O. Box 6894 <br/>
@@ -42,7 +42,7 @@ class Footer extends Component {
                                         </p>
                                     </div>
 
-                                    <div class="design_by">
+                                    <div className="design_by">
                                         <p>Designed by
                                             <a href={this.state.linkedin} target="_blank">asaduzzamanrana.com</a>
                                         </p>

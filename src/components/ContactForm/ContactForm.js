@@ -10,16 +10,16 @@ class ContactForm extends Component {
         return (
             <Fragment>
                 {/*Contact Form Start */}
-                <section class="form_custom_width">
-                    <div class="contact_form_bg section_padding">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="text-center col-lg-8 offset-lg-2">
-                                    <div class="contact_top process_top">
+                <section className="form_custom_width">
+                    <div className="contact_form_bg section_padding">
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="text-center col-lg-8 offset-lg-2">
+                                    <div className="contact_top process_top">
                                         <h2>take <span>the next</span> step </h2>
-                                        <div class="our_process_border border_bar">
-                                            <span class="bordr_top"></span>
-                                            <span class="bordr_bottom"></span>
+                                        <div className="our_process_border border_bar">
+                                            <span className="bordr_top"></span>
+                                            <span className="bordr_bottom"></span>
                                         </div>
                                         <p>
                                             Do you need our help to your brand to its fullest potential? Let us know how
@@ -27,16 +27,16 @@ class ContactForm extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                <div class="form_icon">
+                                <div className="form_icon">
                                     <img src={FormIcon} alt="Form Icon"/>
                                 </div>
                             </div>
                             {/*row / */}
 
                             {/*Contact Form*/}
-                            <div id="contact_form" class="row height_60">
-                                <div class="col-md-12 text-center">
-                                    <div class="form_box">
+                            <div id="contact_form" className="row height_60">
+                                <div className="col-md-12 text-center">
+                                    <div className="form_box">
                                         <form action="index.html">
                                             <input type="text" name="name" id="name" placeholder="Name"/>
                                             <input type="email" name="email" id="email" placeholder="Email"/>

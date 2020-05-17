@@ -13,15 +13,15 @@ class ServiceTerms extends Component {
         return (
             <Fragment>
                 {/* Services & Terms Start */}
-                <section class="custom_width">
-                    <div class="service_bg section_padding">
-                        <div class="container">
-                            <div class="row">
-                                <div class="text-center col-lg-12">
-                                    <div class="service_top process_top">
+                <section className="custom_width">
+                    <div className="service_bg section_padding">
+                        <div className="container">
+                            <div className="row">
+                                <div className="text-center col-lg-12">
+                                    <div className="service_top process_top">
                                         <h2>services <span>&</span> terms </h2>
-                                        <div class="our_process_border border_bar">
-                                            <span class="bordr_bottom"></span>
+                                        <div className="our_process_border border_bar">
+                                            <span className="bordr_bottom"></span>
                                         </div>
                                         <p>Vestibulum tempor interdum tincidunt. Nam feugiat, metus nec laoreet
                                             volutpat, mi diam
@@ -31,7 +31,7 @@ class ServiceTerms extends Component {
                                     </div>
                                 </div>
 
-                                <div class="service_triangle">
+                                <div className="service_triangle">
                                     <img src={Triangle} alt="Service Triangle" />
                                 </div>
                             </div>
@@ -39,19 +39,19 @@ class ServiceTerms extends Component {
                         </div>
                         {/*container /*/}
 
-                        <div class="container-fluid height_85">
-                            <div class="row service_content_height">
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                        <div className="container-fluid height_85">
+                            <div className="row service_content_height">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_1 d-flex justify-content-center align-items-center">
                                                 <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Adipisecting</h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -62,17 +62,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Sit amet consectetur</h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -83,17 +83,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Adipisecting</h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -104,17 +104,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_2 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_2 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Quisquesit amet </h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -125,17 +125,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_2 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_2 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Adipisecting</h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -146,17 +146,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_2 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_2 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_2 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Quisquesit amet </h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -167,17 +167,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_3 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_3 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Molestie at semper </h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -188,17 +188,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_3 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_3 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>Quisque sit amet </h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
@@ -209,17 +209,17 @@ class ServiceTerms extends Component {
                                 </div>
                                 {/* col / */}
 
-                                <div class="col-md-12 col-lg-4 service_box_width">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-lg-3 p-0 m-0">
+                                <div className="col-md-12 col-lg-4 service_box_width">
+                                    <div className="row">
+                                        <div className="col-sm-6 col-lg-3 p-0 m-0">
                                             <div
-                                                class="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
+                                                className="service_arrow_3 service_arrow_1 d-flex justify-content-center align-items-center">
                                                  <span><FontAwesomeIcon icon={faLongArrowAltRight}/></span>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-lg-9 p-0 m-0">
-                                            <div class="service_text_3 service_text_1">
-                                                <div class="service_text_table">
+                                        <div className="col-sm-6 col-lg-9 p-0 m-0">
+                                            <div className="service_text_3 service_text_1">
+                                                <div className="service_text_table">
                                                     <h3>AMolestie at semperipisecting</h3>
                                                     <p>Vestibulum tempor interdum tincidunt.
                                                         Nam feugiat, metus nec laoreet</p>
