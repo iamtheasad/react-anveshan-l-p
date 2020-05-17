@@ -3,6 +3,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/css/style.css';
 import '../../assets/css/responsive.css';
+import FormIcon from '../../assets/image/form_icon.png';
 
 class ContactForm extends Component {
     render() {
@@ -27,7 +28,7 @@ class ContactForm extends Component {
                                     </div>
                                 </div>
                                 <div class="form_icon">
-                                    <img src="images/form_icon.png" alt="Form Icon"/>
+                                    <img src={FormIcon} alt="Form Icon"/>
                                 </div>
                             </div>
                             {/*row / */}
