@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import BottomTopButton from "../components/BottomTopButton/BottomTopButton";
 import OurProcess from "../components/OurProcess/OurProcess";
 import ServiceTerms from "../components/ServiceTerms/ServiceTerms";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 class HomePage extends Component {
     render() {
@@ -15,6 +16,7 @@ class HomePage extends Component {
                <About/>
                <OurProcess/>
                <ServiceTerms/>
+               <ContactForm/>
                <BottomTopButton/>
             </Fragment>
         );
