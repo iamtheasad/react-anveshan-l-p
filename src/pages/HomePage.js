@@ -9,17 +9,22 @@ import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 
 class HomePage extends Component {
+
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+
     render() {
         return (
             <Fragment>
                 <TopNavigation/>
                 <TopBanner/>
-               <About/>
-               <OurProcess/>
-               <ServiceTerms/>
-               <ContactForm/>
-               <BottomTopButton/>
-               <Footer/>
+                <About/>
+                <OurProcess/>
+                <ServiceTerms/>
+                <ContactForm/>
+                <BottomTopButton/>
+                <Footer/>
             </Fragment>
         );
     }

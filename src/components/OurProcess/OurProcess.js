@@ -9,7 +9,7 @@ class OurProcess extends Component {
         return (
             <Fragment>
                 {/* Our Process Start */}
-                <section className="custom_width section_padding">
+                <section id="ourProcess" className="custom_width section_padding">
                     <div className="container">
                         <div className="row">
                             <div className="text-center col-md-12">

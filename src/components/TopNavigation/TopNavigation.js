@@ -53,12 +53,10 @@ class TopNavigation extends Component {
                                                     </a>
                                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                                         <a className="dropdown-item" href="#">Home</a>
-                                                        <a className="dropdown-item" href="#">Contact</a>
-                                                        <a className="dropdown-item" href="#">About Us</a>
-                                                        <a className="dropdown-item" href="#">Home</a>
-                                                        <a className="dropdown-item" href="#">About Us</a>
-                                                        <a className="dropdown-item" href="#">Contact</a>
-                                                        <a className="dropdown-item" href="#">About Us</a>
+                                                        <a className="dropdown-item" href="#contactForm">Contact</a>
+                                                        <a className="dropdown-item" href="#aboutus">About Us</a>
+                                                        <a className="dropdown-item" href="#service">Services</a>
+                                                        <a className="dropdown-item" href="#ourProcess">Our Process</a>
                                                     </div>
                                                 </li>
                                             </ul>
