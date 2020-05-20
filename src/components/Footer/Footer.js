@@ -44,7 +44,7 @@ class Footer extends Component {
 
                                     <div className="design_by">
                                         <p>Designed by
-                                            <a href={this.state.linkedin} target="_blank">asaduzzamanrana.com</a>
+                                             <a href={this.state.linkedin} target="_blank"> asaduzzamanrana.com</a>
                                         </p>
                                     </div>
                                 </div>
