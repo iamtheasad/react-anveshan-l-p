@@ -31,7 +31,7 @@ class TopNavigation extends Component {
                                 <div className="menu">
                                     <nav className="navbar navbar-expand-lg navbar-light">
                                         <div className="menu_img">
-                                            <a className="navbar-brand" href="index.html"><img src={Logo}
+                                            <a className="navbar-brand" href="#"><img src={Logo}
                                                                                                alt="Logo Img"/> </a>
                                         </div>
 
@@ -48,12 +48,11 @@ class TopNavigation extends Component {
                                                        data-toggle="dropdown"
                                                        aria-haspopup="true" aria-expanded="false">
                                                         Menu
-                                                        {/*<span><i className={fasFaBars}></i></span>*/}
                                                         <span><FontAwesomeIcon icon={faBars}/> </span>
                                                     </a>
                                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                                         <a className="dropdown-item" href="#">Home</a>
-                                                        <a className="dropdown-item" href="#contactForm">Contact</a>
+                                                        <a className="dropdown-item" href="#contact_form">Contact</a>
                                                         <a className="dropdown-item" href="#aboutus">About Us</a>
                                                         <a className="dropdown-item" href="#service">Services</a>
                                                         <a className="dropdown-item" href="#ourProcess">Our Process</a>

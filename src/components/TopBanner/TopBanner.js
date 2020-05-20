@@ -25,7 +25,7 @@ class TopBanner extends Component {
                                                 decisions and drive
                                                 results.</p>
 
-                                            <a href="#" className="scroll_btn">
+                                            <a href="#aboutus" className="scroll_btn">
                                                 <img src={Toggle} alt="Scroll"/><span>Scroll</span>
                                             </a>
                                         </div>
