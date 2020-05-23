@@ -88,6 +88,14 @@ a:focus {
     text-decoration: none;
 }
 
+li {
+    cursor: pointer;
+}
+
+.spacer {
+    margin: 100px 0 100px 0;
+}
+
 /**************************************  
    Header Section Start
 ***************************************/
@@ -193,6 +201,10 @@ li.nav-item.dropdown.menu_dropdown.show a.dropdown-item {
     border: none;
 }
 
+.menu_nav a.dropdown-item .active,
+.menu_nav .nav-link .active{
+    border-bottom: 2px solid #f0f0f0;
+}
 /* Menu Area End */
 
 /* Header Body Start */

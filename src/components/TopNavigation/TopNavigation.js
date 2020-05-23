@@ -7,6 +7,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
+import {Link} from 'react-scroll';
 
 
 class TopNavigation extends Component {
@@ -31,14 +32,38 @@ class TopNavigation extends Component {
                                 <div className="menu">
                                     <nav className="navbar navbar-expand-lg navbar-light">
                                         <div className="menu_img">
-                                            <a className="navbar-brand" href="#"><img src={Logo}
-                                                                                               alt="Logo Img"/> </a>
+                                            <a className="navbar-brand" href="#">
+                                                <Link activeClass="active"
+                                                      to="topBanner"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      hashSpy={true}
+                                                      offset={0}
+                                                      duration={500}
+                                                      delay={100}
+                                                >
+                                                    <img src={Logo}
+                                                         alt="Logo Img"/>
+                                                </Link>
+                                            </a>
                                         </div>
 
                                         <div className="menu_nav" id="navbarSupportedContent">
                                             <ul className="navbar-nav ml-auto">
                                                 <li className="nav-item">
-                                                    <a className="nav-link" href="#contact_form">Contact</a>
+                                                    <a className="nav-link" href="#">
+                                                        <Link activeClass="active"
+                                                              to="contact_form"
+                                                              spy={true}
+                                                              smooth={true}
+                                                              hashSpy={true}
+                                                              offset={0}
+                                                              duration={500}
+                                                              delay={100}
+                                                        >
+                                                            Contact
+                                                        </Link>
+                                                    </a>
                                                 </li>
                                                 <li className="nav-item">
                                                     <a className="nav-link" href="#"><span>&#124;</span></a>
@@ -50,12 +75,77 @@ class TopNavigation extends Component {
                                                         Menu
                                                         <span><FontAwesomeIcon icon={faBars}/> </span>
                                                     </a>
+
                                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <a className="dropdown-item" href="#">Home</a>
-                                                        <a className="dropdown-item" href="#contact_form">Contact</a>
-                                                        <a className="dropdown-item" href="#aboutus">About Us</a>
-                                                        <a className="dropdown-item" href="#service">Services</a>
-                                                        <a className="dropdown-item" href="#ourProcess">Our Process</a>
+                                                        <a className="dropdown-item" href="#">
+                                                            <Link activeClass="active"
+                                                                  to="topBanner"
+                                                                  spy={true}
+                                                                  smooth={true}
+                                                                  hashSpy={true}
+                                                                  offset={0}
+                                                                  duration={500}
+                                                                  delay={100}
+                                                            >
+                                                                Home
+                                                            </Link>
+                                                        </a>
+
+                                                        <a className="dropdown-item" href="#">
+                                                            <Link activeClass="active"
+                                                                  to="contact_form"
+                                                                  spy={true}
+                                                                  smooth={true}
+                                                                  hashSpy={true}
+                                                                  offset={0}
+                                                                  duration={500}
+                                                                  delay={100}
+                                                            >
+                                                                Contact
+                                                            </Link>
+                                                        </a>
+
+                                                        <a className="dropdown-item" href="#">
+                                                            <Link activeClass="active"
+                                                                  to="aboutus"
+                                                                  spy={true}
+                                                                  smooth={true}
+                                                                  hashSpy={true}
+                                                                  offset={0}
+                                                                  duration={500}
+                                                                  delay={100}
+                                                            >
+                                                                About Us
+                                                            </Link>
+                                                        </a>
+
+                                                        <a className="dropdown-item" href="#">
+                                                            <Link activeClass="active"
+                                                                  to="service"
+                                                                  spy={true}
+                                                                  smooth={true}
+                                                                  hashSpy={true}
+                                                                  offset={0}
+                                                                  duration={500}
+                                                                  delay={100}
+                                                            >
+                                                                Services
+                                                            </Link>
+                                                        </a>
+
+                                                        <a className="dropdown-item" href="#">
+                                                            <Link activeClass="active"
+                                                                  to="ourProcess"
+                                                                  spy={true}
+                                                                  smooth={true}
+                                                                  hashSpy={true}
+                                                                  offset={0}
+                                                                  duration={500}
+                                                                  delay={100}
+                                                            >
+                                                                Our Process
+                                                            </Link>
+                                                        </a>
                                                     </div>
                                                 </li>
                                             </ul>
