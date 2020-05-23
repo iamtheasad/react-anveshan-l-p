@@ -165,6 +165,8 @@ li {
 
 .navbar-light .menu_nav .navbar-nav .nav-link span {
     color: #a8a8a8;
+    margin-top: 2px;
+    display: inline-block;
 }
 
 .menu_dropdown .dropdown-menu.show {
