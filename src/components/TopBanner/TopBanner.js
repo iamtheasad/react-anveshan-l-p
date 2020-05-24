@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/css/style.css';
 import '../../assets/css/responsive.css';
+import {Link} from 'react-scroll';
 
 
 class TopBanner extends Component {
@@ -12,7 +13,7 @@ class TopBanner extends Component {
     render() {
         return (
             <Fragment>
-               {/* Header Background Image Start*/}
+                {/* Header Background Image Start*/}
                 <header id="top_banner" className="custom_width">
                     <div className="header_bg">
                         <div className="container-fluid">
@@ -22,12 +23,18 @@ class TopBanner extends Component {
                                         <div className="header_body_table">
                                             <h1>Research & Analysis <br/> <span>driving results</span></h1>
                                             <p>Anveshan is a research and analysis consultants that helps to make solid
-                                                decisions and drive
-                                                results.</p>
+                                                decisions and drive results.</p>
 
-                                            <a href="#aboutus" className="scroll_btn">
+                                            <Link
+                                                className="scroll_btn"
+                                                activeClass="active"
+                                                to="about"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-70}
+                                            >
                                                 <img src={Toggle} alt="Scroll"/><span>Scroll</span>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -37,13 +44,13 @@ class TopBanner extends Component {
                                     <img src={Triagnle} alt="Header Triangle Icon"/>
                                     <img src={Triagnle} alt="Header Triangle Icon"/>
                                 </div>
-                               {/*header_triangle /*/}
+                                {/*header_triangle /*/}
                             </div>
                         </div>
                     </div>
                     {/*header_bg / */}
                 </header>
-                 {/*Header Background Image End*/}
+                {/*Header Background Image End*/}
             </Fragment>
         );
     }

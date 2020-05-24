@@ -269,6 +269,7 @@ a.scroll_btn {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 a.scroll_btn:hover {

@@ -53,8 +53,9 @@ class About extends Component {
                                         <h4>Interdum tincidunt</h4>
                                         <p>nec laoreet volutpat, mi diam consectetur nisl, a vestibulum enimer</p>
                                     </div>
-                                    <span className="mountain_top"><FontAwesomeIcon
-                                        icon={faCircle}></FontAwesomeIcon></span>
+                                    <span className="mountain_top">
+                                        <FontAwesomeIcon icon={faCircle}></FontAwesomeIcon>
+                                    </span>
                                 </div>
                             </div>
                             <div className="col-lg-6 p-0">
