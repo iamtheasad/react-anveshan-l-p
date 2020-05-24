@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-anveshan-l-p/static/css/main.147feef0.chunk.css",
-    "main.js": "/react-anveshan-l-p/static/js/main.dd313cff.chunk.js",
-    "main.js.map": "/react-anveshan-l-p/static/js/main.dd313cff.chunk.js.map",
+    "main.css": "/react-anveshan-l-p/static/css/main.41ecd446.chunk.css",
+    "main.js": "/react-anveshan-l-p/static/js/main.0e49a474.chunk.js",
+    "main.js.map": "/react-anveshan-l-p/static/js/main.0e49a474.chunk.js.map",
     "runtime-main.js": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js",
     "runtime-main.js.map": "/react-anveshan-l-p/static/js/runtime-main.9787d376.js.map",
     "static/css/2.69121389.chunk.css": "/react-anveshan-l-p/static/css/2.69121389.chunk.css",
-    "static/js/2.5f4e3a11.chunk.js": "/react-anveshan-l-p/static/js/2.5f4e3a11.chunk.js",
-    "static/js/2.5f4e3a11.chunk.js.map": "/react-anveshan-l-p/static/js/2.5f4e3a11.chunk.js.map",
+    "static/js/2.2103d4d9.chunk.js": "/react-anveshan-l-p/static/js/2.2103d4d9.chunk.js",
+    "static/js/2.2103d4d9.chunk.js.map": "/react-anveshan-l-p/static/js/2.2103d4d9.chunk.js.map",
     "index.html": "/react-anveshan-l-p/index.html",
-    "precache-manifest.291440cde4d2a4a95bf5b934bdec8cba.js": "/react-anveshan-l-p/precache-manifest.291440cde4d2a4a95bf5b934bdec8cba.js",
+    "precache-manifest.76f59beba582831941fd723645ca8c28.js": "/react-anveshan-l-p/precache-manifest.76f59beba582831941fd723645ca8c28.js",
     "service-worker.js": "/react-anveshan-l-p/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/react-anveshan-l-p/static/css/2.69121389.chunk.css.map",
-    "static/css/main.147feef0.chunk.css.map": "/react-anveshan-l-p/static/css/main.147feef0.chunk.css.map",
-    "static/js/2.5f4e3a11.chunk.js.LICENSE.txt": "/react-anveshan-l-p/static/js/2.5f4e3a11.chunk.js.LICENSE.txt",
+    "static/css/main.41ecd446.chunk.css.map": "/react-anveshan-l-p/static/css/main.41ecd446.chunk.css.map",
+    "static/js/2.2103d4d9.chunk.js.LICENSE.txt": "/react-anveshan-l-p/static/js/2.2103d4d9.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-anveshan-l-p/static/media/service_bg.e6489a09.jpg",
     "static/media/form_icon.png": "/react-anveshan-l-p/static/media/form_icon.9dc572f2.png",
     "static/media/triangle.png": "/react-anveshan-l-p/static/media/triangle.b0b51ca6.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.9787d376.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.5f4e3a11.chunk.js",
-    "static/css/main.147feef0.chunk.css",
-    "static/js/main.dd313cff.chunk.js"
+    "static/js/2.2103d4d9.chunk.js",
+    "static/css/main.41ecd446.chunk.css",
+    "static/js/main.0e49a474.chunk.js"
   ]
 }
