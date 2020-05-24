@@ -10,7 +10,7 @@ class ContactForm extends Component {
         return (
             <Fragment>
                 {/*Contact Form Start */}
-                <section id="contactForm" className="form_custom_width">
+                <section id="contact" className="form_custom_width">
                     <div className="contact_form_bg section_padding">
                         <div className="container-fluid">
                             <div className="row">
@@ -34,7 +34,7 @@ class ContactForm extends Component {
                             {/*row / */}
 
                             {/*Contact Form*/}
-                            <div id="contact_form" className="row height_60">
+                            <div id="contact_area" className="row height_60">
                                 <div className="col-md-12 text-center">
                                     <div className="form_box">
                                         <form action="index.html">

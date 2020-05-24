@@ -185,7 +185,8 @@ li {
 }
 
 .menu_dropdown .dropdown-item:focus,
-.menu_dropdown .dropdown-item:hover {
+.menu_dropdown .dropdown-item:hover,
+.menu_nav .dropdown-item.active {
     background-color: rgba(110, 48, 136, 0.6);
 }
 
@@ -203,10 +204,11 @@ li.nav-item.dropdown.menu_dropdown.show a.dropdown-item {
     border: none;
 }
 
-.menu_nav a.dropdown-item .active,
-.menu_nav .nav-link .active{
+.menu_nav .dropdown-item.active,
+.menu_nav .nav-link.active {
     border-bottom: 2px solid #f0f0f0;
 }
+
 /* Menu Area End */
 
 /* Header Body Start */

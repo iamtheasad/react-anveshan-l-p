@@ -13,7 +13,7 @@ class TopBanner extends Component {
         return (
             <Fragment>
                {/* Header Background Image Start*/}
-                <header id="topBanner" className="custom_width">
+                <header id="top_banner" className="custom_width">
                     <div className="header_bg">
                         <div className="container-fluid">
                             <div className="row text-center">

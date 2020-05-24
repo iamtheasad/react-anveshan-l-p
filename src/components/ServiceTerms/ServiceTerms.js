@@ -13,7 +13,7 @@ class ServiceTerms extends Component {
         return (
             <Fragment>
                 {/* Services & Terms Start */}
-                <section id="service" className="custom_width">
+                <section id="services" className="custom_width">
                     <div className="service_bg section_padding">
                         <div className="container">
                             <div className="row">

@@ -44,7 +44,7 @@ class About extends Component {
         return (
             <Fragment>
                 { /* Quisque / About Start */}
-                <section id="aboutus" className="custom_width">
+                <section id="about" className="custom_width">
                     <div className="container-fluid container_padding">
                         <div className="row">
                             <div className="col-lg-6">
