@@ -1,6 +1,11 @@
-React Single Page, Fully Responsive Website.
+- **Fully Mobile Responsive React Landing Page Business Website**
+- **_100% W3C Validated_ CSS Code**
+- **All Browser Supported**
 
 - Reactjs
-- Bootstrap
-- FontAwesome
-- Jquery technoloy are used here.
+- Bootstrap 4
+- FontAwesome 5
+- Jquery
+- HTML5
+- CSS3
+- Flexbox technology are used here.
