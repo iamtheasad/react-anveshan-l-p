@@ -8,6 +8,4 @@
 - Bootstrap 4
 - FontAwesome 5
 - Jquery
-- HTML5
-- CSS3
 - Flexbox technology are used here.
